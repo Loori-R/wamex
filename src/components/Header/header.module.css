@@ -1,0 +1,53 @@
+a,
+a:hover,
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: 100%;
+  background: #ffffff;
+}
+
+/*logo*/
+.navbar-logo-container {
+  display: flex;
+  width: 250px;
+  background: #ffffff;
+
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar-logo-container p {
+  color: rgba(21, 21, 21, 0.6);
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 0 10px;
+}
+
+/*navbar menu*/
+.navbar-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+}
+
+/*phones*/
+.navbar-logo-container p > strong {
+  font-size: 20px;
+}
+
+.navbar-phones {
+  color: rgba(21, 21, 21, 0.6);
+}
