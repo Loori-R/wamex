@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import headerStyles from "./header.module.css"
 import Image from "./logo"
-import NavElement from "../NavElement/navElement"
+import NavElement from "./NavElement/navElement"
 
 const test = [
   { link: "/", text: "Предохранительные муфты" },
