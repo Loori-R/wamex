@@ -28,8 +28,6 @@ const Header = ({ siteTitle }) => (
         <NavElement name="Mayr" link="/" dropdown={test} />
         <NavElement name="Schmidt-Kupplung" link="/" dropdown={test} />
         <NavElement name="Heid Antriebstechnik" link="/" dropdown={test} />
-        <NavElement name="Статьи" link="/" />
-        <NavElement name="Новости" link="/" />
       </div>
       <div className={headerStyles.navbarPhones}>
         8 (044) 463-46-38 <br />8 (025) 922-58-21

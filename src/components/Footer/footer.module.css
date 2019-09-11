@@ -1,0 +1,44 @@
+.footer-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+footer h2 {
+  font-weight: normal;
+}
+
+.footer-main a {
+  color: #0066b3;
+}
+
+.footer-main a:hover,
+.footer-info a:hover {
+  color: rgba(21, 21, 21, 0.6);
+}
+
+.footer-top-hr {
+  margin: auto;
+  width: 10vw;
+  height: 1px;
+}
+
+.footer-bot-hr {
+  width: 99vw;
+  height: 1px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: wrap;
+  color: #aca0a0;
+  padding: 50px;
+}
+
+.footer-info a {
+  color: #aca0a0;
+}
