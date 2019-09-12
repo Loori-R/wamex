@@ -8,3 +8,11 @@ html {
   font-size: 16px;
   line-height: 24px;
 }
+
+.main-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 340px);
+  gap: 80px 40px;
+  justify-content: space-between;
+  margin: 100px 20vw;
+}

@@ -1,0 +1,36 @@
+{
+  "mayr": {
+    "couplings": [{}],
+    "dcDrives": [{}],
+    "electromagneticClutchesBrakes": [{}],
+    "safetyBrakes": [{}],
+    "safetyCouplings": [
+      {
+        "name": "EAS-HT",
+        "img": "eas_element_ht.png",
+        "text": "Предохранительная муфта EAS-HT - отсоединение нагрузки без остаточного момента, предохранение от чрезвычайно высоких крутящих моментов, защита быстроходных тяжелых приводов с большими вращающимися массами.",
+        "link": "https://goo.gl/iP7zPx"
+      },
+      {
+        "name": "EAS-compact ",
+        "img": "eas_compact.png",
+        "text": "Предохранительная муфта EAS-compact - беззазорная, отсоединяет нагрузку, храповая, синхронная или рассоединительная муфта,также в исполнении из нержавеющей стали и с уплотнением.",
+        "link": "https://goo.gl/hLvGrb"
+      },
+      {
+        "name": "EAS-smartic ",
+        "img": "eas_smartic.png",
+        "text": "Предохранительная муфта EAS-smartic - оптимальная для установки в условиях ограниченного пространства, с отсоединением нагрузки, синхронный дизайн с клеммной втулкой для быстрого монтажа или ступицей со шпонкой.",
+        "link": "https://goo.gl/6u7mpb"
+      }
+    ]
+  },
+  "schmidt": { "clutches": [{}] },
+  "heid": {
+    "brakes": [{}],
+    "clutchesBrakes": [{}],
+    "gearCouplings": [{}],
+    "multidiscClutch": [{}],
+    "odnoploskostnoyClutch": [{}]
+  }
+}

@@ -1,0 +1,16 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  color: #151515;
+}
+
+.product-image {
+  width: 220px;
+}
+
+.product-container p {
+  margin-bottom: 20px;
+}

@@ -7,10 +7,7 @@ import TopTitle from "./TopTitle/topTitle"
 import Footer from "./Footer/footer"
 import "./layout.css"
 
-const topTitleText =
-  "MAYR ANTRIEBSTECHNIK - мировой лидер в разработке и производстве предохранительных муфт и тормозов"
-
-const Layout = ({ children }) => {
+const Layout = ({ children, textTitle }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -24,7 +21,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <TopTitle title={topTitleText} />
+      <TopTitle title={textTitle} />
       <div>
         <main>{children}</main>
         <Footer />

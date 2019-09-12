@@ -1,0 +1,17 @@
+.slideshow-wrapper {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  gap: 50px;
+  justify-content: start;
+  align-items: center;
+}
+
+.slideshow-wrapper p {
+  font-size: 20px;
+  margin-top: 20px;
+  word-wrap: wrap;
+}
+
+.slideshow-image-wrapper {
+  width: 270px;
+}

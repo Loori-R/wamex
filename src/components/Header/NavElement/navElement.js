@@ -23,7 +23,7 @@ const NavElement = ({ name, link, dropdown }) => {
         setStatus(true)
       } else {
         count = 0
-        await pause(500)
+        await pause(250)
         if (count === 0) {
           setStatus(false)
         }
