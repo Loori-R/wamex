@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `WAMEX - Современная беззазорная приводная техника`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `WAMEX - Современная беззазорная приводная техника`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -22,9 +22,9 @@ module.exports = {
       options: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        start_url: `https://loori-r.github.io/wamex/`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FFFFFF`,
         display: `minimal-ui`,
         icon: `src/images/favicon.ico.png`, // This path is relative to the root of the site.
       },
