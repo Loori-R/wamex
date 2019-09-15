@@ -12,10 +12,15 @@ const Product = ({ name, img, text, link }) => (
       <Image src={img} />
     </div>
     <p>{text}</p>
-    <Link to={link} className={companyDescStyles.companyDescriptionLink}>
-      Каталог{" "}
-      <span className={companyDescStyles.companyDescriptionLinkArrow}>→</span>
-    </Link>
+
+    {link ? (
+      <Link to={link} className={companyDescStyles.companyDescriptionLink}>
+        Каталог{" "}
+        <span className={companyDescStyles.companyDescriptionLinkArrow}>→</span>
+      </Link>
+    ) : (
+      ""
+    )}
   </div>
 )
 
@@ -30,7 +35,6 @@ Product.defaultProps = {
   name: " ",
   img: "default.jpg",
   text: " ",
-  link: "#",
 }
 
 export default Product
