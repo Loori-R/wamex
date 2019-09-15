@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[11],{234:function(n,a,e){"use strict";e.r(a);var t=e(0),r=e.n(t),c=e(225),i=e(224);a.default=function(){return r.a.createElement(c.a,{title:"Соединительные муфты MAYR",array:i.mayr.couplings})}}}]);
+//# sourceMappingURL=component---src-pages-mayr-couplings-js-b1b3577df54af8a097fe.js.map

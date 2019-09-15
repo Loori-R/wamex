@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{238:function(n,a,e){"use strict";e.r(a);var t=e(0),r=e.n(t),i=e(225),o=e(224);a.default=function(){return r.a.createElement(i.a,{title:"Предохранительные муфты MAYR",array:o.mayr.safetyCouplings})}}}]);
+//# sourceMappingURL=component---src-pages-mayr-safety-couplings-js-eae81b9bbc8a60a978b9.js.map

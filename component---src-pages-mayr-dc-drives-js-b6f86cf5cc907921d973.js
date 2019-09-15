@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{235:function(e,n,a){"use strict";a.r(n);var r=a(0),t=a.n(r),c=a(225),i=a(224);n.default=function(){return t.a.createElement(c.a,{title:"Приводы постоянного тока MAYR",array:i.mayr.dcDrives})}}}]);
+//# sourceMappingURL=component---src-pages-mayr-dc-drives-js-b6f86cf5cc907921d973.js.map

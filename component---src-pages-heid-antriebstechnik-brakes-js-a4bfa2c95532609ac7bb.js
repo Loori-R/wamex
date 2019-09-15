@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{228:function(e,n,a){"use strict";a.r(n);var t=a(0),r=a.n(t),i=a(225),c=a(224);n.default=function(){return r.a.createElement(i.a,{title:"Тормоза HEID ANTRIEBSTECHNIK",array:c.heid.brakes})}}}]);
+//# sourceMappingURL=component---src-pages-heid-antriebstechnik-brakes-js-a4bfa2c95532609ac7bb.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[13],{236:function(e,t,a){"use strict";a.r(t);var n=a(0),r=a.n(n),c=a(225),i=a(224);t.default=function(){return r.a.createElement(c.a,{title:"Электромагнитные муфты и тормоза MAYR",array:i.mayr.electromagneticClutchesBrakes})}}}]);
+//# sourceMappingURL=component---src-pages-mayr-electromagnetic-clutches-brakes-js-0d77a0e2b89a3a53bc12.js.map
