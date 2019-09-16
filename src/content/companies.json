@@ -4,30 +4,30 @@
     "logo": "mayr_logo.jpg",
     "desc": "MAYR ANTRIEBSTECHNIK – мировой лидер по разработке и производстве предохранительных муфт и тормозов, а также присоединительных муфт.",
     "site": "https://www.mayr.com/ru",
-    "link": "mayr",
+    "link": "./mayr/",
     "pages": [
       {
-        "link": "mayr/safety-couplings",
+        "link": "/mayr/safety-couplings",
         "text": "Предохранительные муфты",
         "img": "eas_compact.png"
       },
       {
-        "link": "mayr/safety-brakes",
+        "link": "/mayr/safety-brakes",
         "text": "Предохранительные тормоза",
         "img": "roba_stop_m.png"
       },
       {
-        "link": "mayr/dc-drives",
+        "link": "/mayr/dc-drives",
         "text": "Приводы постоянного тока",
         "img": "tendo_pm.png"
       },
       {
-        "link": "mayr/couplings",
+        "link": "/mayr/couplings",
         "text": "Соединительные муфты",
         "img": "roba_ds.png"
       },
       {
-        "link": "mayr/electromagnetic-clutches-brakes",
+        "link": "/mayr/electromagnetic-clutches-brakes",
         "text": "Электромагнитные муфты и тормоза",
         "img": "robatic_standard.png"
       }
