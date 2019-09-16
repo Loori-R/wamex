@@ -22,7 +22,7 @@ module.exports = {
       options: {
         name: `WAMEX - Современная беззазорная приводная техника`,
         short_name: `Wamex`,
-        start_url: `.`,
+        start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
@@ -33,4 +33,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  pathPrefix: "/wamex",
 }
