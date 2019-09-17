@@ -9,3 +9,15 @@
   margin: 0;
   color: rgb(21, 21, 21);
 }
+
+@media only screen and (max-width: 768px) {
+  .top-title h1 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .top-title {
+    padding: 50px;
+  }
+}

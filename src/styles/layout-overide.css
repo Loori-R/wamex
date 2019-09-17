@@ -13,6 +13,7 @@ html {
   display: grid;
   grid-template-columns: repeat(auto-fit, 340px);
   gap: 80px 40px;
-  justify-content: space-between;
-  margin: 100px 20vw;
+  justify-content: center;
+  max-width: 1135px;
+  margin: 100px auto;
 }

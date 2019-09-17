@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   row-gap: 30px;
-  width: 50%;
+  max-width: 900px;
   flex-wrap: wrap;
   padding: 30px;
   margin: 100px auto;
@@ -30,4 +30,12 @@
 
 .company-description-link:hover .company-description-link-arrow {
   margin-left: 15px;
+}
+
+@media only screen and (max-width: 992px) {
+  .company-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }

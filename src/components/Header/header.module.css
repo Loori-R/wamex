@@ -54,3 +54,24 @@ a:active {
 .navbar-phones {
   color: rgba(21, 21, 21, 0.6);
 }
+
+@media only screen and (max-width: 1024px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .navbar-menu {
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    flex-direction: column;
+  }
+}
