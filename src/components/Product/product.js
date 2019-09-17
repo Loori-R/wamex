@@ -8,9 +8,14 @@ import Image from "../image"
 const Product = ({ name, img, text, link }) => (
   <div className={productStyles.productContainer}>
     <h2>{name}</h2>
-    <div className={productStyles.productImage}>
-      <Image src={img} />
-    </div>
+    {img ? (
+      <div className={productStyles.productImage}>
+        <Image src={img} />
+      </div>
+    ) : (
+      ""
+    )}
+
     <p>{text}</p>
 
     {link ? (
@@ -33,7 +38,6 @@ Product.propTypes = {
 
 Product.defaultProps = {
   name: " ",
-  img: "default.jpg",
   text: " ",
 }
 
