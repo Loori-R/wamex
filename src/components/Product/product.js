@@ -19,10 +19,14 @@ const Product = ({ name, img, text, link }) => (
     <p>{text}</p>
 
     {link ? (
-      <Link to={link} className={companyDescStyles.companyDescriptionLink}>
+      <a
+        href={link}
+        className={companyDescStyles.companyDescriptionLink}
+        target="__blank"
+      >
         Каталог{" "}
         <span className={companyDescStyles.companyDescriptionLinkArrow}>→</span>
-      </Link>
+      </a>
     ) : (
       ""
     )}
