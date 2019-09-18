@@ -13,7 +13,7 @@ const Slideshow = () => {
       dotsDisabled={false}
       buttonsDisabled={true}
       autoPlay={true}
-      autoPlayInterval={5000}
+      autoPlayInterval={10000}
     >
       <div className={SlideshowStyles.slideshowWrapper}>
         <div className={SlideshowStyles.slideshowImageWrapper}>

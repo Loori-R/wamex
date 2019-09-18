@@ -51,7 +51,8 @@ a:active {
   font-size: 20px;
 }
 
-.navbar-phones {
+.navbar-phones,
+.navbar-phones > a {
   color: rgba(21, 21, 21, 0.6);
 }
 

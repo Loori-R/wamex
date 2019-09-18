@@ -22,14 +22,15 @@ const Header = () => {
         <Link to="/" className={headerStyles.navbarLogoContainer}>
           <Image src="logo_wamex54.png" />
           <p>
-            <strong>WAMEX</strong>
+            <strong>WAMEX.BY</strong>
             <br />
-            партнер WAMEX
+            партнер WAMEX Sp. z o.o.
           </p>
         </Link>
         <div className={headerStyles.navbarMenu}>{menu}</div>
         <div className={headerStyles.navbarPhones}>
-          8 (044) 463-46-38 <br />8 (025) 922-58-21
+          <a href="tel:+375296502036">Тел.: 8 (029) 650-20-36</a>
+          <br /> Факс: 8 (0232) 21-33-99
         </div>
       </div>
     </header>

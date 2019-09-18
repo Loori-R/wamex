@@ -7,7 +7,7 @@ const Footer = () => (
     <hr className={FooterStyles.footerTopHr} />
     <div className={FooterStyles.footerMain}>
       <div>
-        <h2>Партер</h2>
+        <h2>Партнер</h2>
         WAMEX Sp. z o.o.
         <br />
         <a href="https://wamex.com.pl/" target="__blank">
@@ -20,26 +20,26 @@ const Footer = () => (
       </div>
       <div>
         <h2>Адресс</h2>
-        633011, Россия
+        ООО "ИнсталИнвест"
         <br />
-        Новосибирская область, г.Бердск
+        Республика Беларусь
         <br />
-        микрорайон Северный, дом 20
+        г. Гомель, ул. Ярославская д.19-2/1-08
       </div>
       <div>
         <h2>Контакты</h2>
-        8 (913) 463-46-38
+        Тел.: 8 (029) 650-20-36
         <br />
-        8 (952) 922-58-21
+        Факс: 8 (0232) 21-33-99
         <br />
-        <a href="mailto:wamex@wamex.com.pl" target="__blank">
-          wamex@wamex.com.pl
+        <a href="mailto:stanprom@mail.ru" target="__blank">
+          stanprom@mail.ru
         </a>
       </div>
     </div>
     <hr className={FooterStyles.footerBotHr} />
     <div className={FooterStyles.footerInfo}>
-      <span>© 2019 WAMEX</span>
+      <span>© 2019 WAMEX.BY</span>
       <span>
         <a href="https://github.com/Loori-R" target="__blank">
           Made by Molodov
