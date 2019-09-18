@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "WAMEX.BY partner WAMEX Sp. z.o.o.",
   "version": "0.1.0",
-  "author": "Yury Molodov",
+  "author": "@loori-r",
   "dependencies": {
     "gatsby": "^2.15.11",
     "gatsby-image": "^2.2.17",
@@ -41,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Loori-R/wamex"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Loori-R/wamex/issues"
   }
 }
