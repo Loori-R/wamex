@@ -22,7 +22,7 @@ const Header = () => {
         <Link to="/" className={headerStyles.navbarLogoContainer}>
           <Image src="logo_wamex54.png" />
           <p>
-            <strong>WAMEX.BY</strong>
+            <strong>WAMEX - Беларусь</strong>
             <br />
             партнер WAMEX Sp. z o.o.
           </p>

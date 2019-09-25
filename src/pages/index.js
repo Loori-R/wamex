@@ -6,10 +6,10 @@ import "../styles/layout-overide.css"
 import CompanyDesc from "../components/CompanyDesc/companyDesc"
 import Slideshow from "../components/Slideshow/slideShow"
 
-import dataCopany from "../content/companies.json"
+import dataCompany from "../content/companies.json"
 
 const IndexPage = () => {
-  const companies = dataCopany.map((elems, index) => (
+  const companies = dataCompany.map((elems, index) => (
     <div key={elems.desc + index}>
       <CompanyDesc
         logo={elems.logo}

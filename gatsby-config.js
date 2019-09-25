@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `WAMEX - Современная беззазорная приводная техника`,
-    description: `WAMEX.BY является официальным партнером WAMEX Sp. z o.o.`,
+    description: `WAMEX-Беларусь является официальным партнером WAMEX Sp. z o.o.`,
     author: `@loori-r`,
   },
   plugins: [
@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `WAMEX - Современная беззазорная приводная техника`,
-        short_name: `WAMEX.BY`,
+        short_name: `WAMEX-Беларусь`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#FFFFFF`,

@@ -31,7 +31,7 @@ const Footer = () => (
         Тел.: 8 (029) 650-20-36
         <br />
         Факс: 8 (0232) 21-33-99
-        <br />
+        <br /> E-mail:
         <a href="mailto:stanprom@mail.ru" target="__blank">
           stanprom@mail.ru
         </a>
